@@ -1,0 +1,1190 @@
+
+body{
+    text-align: center;
+}
+/* 下拉菜单样式 */
+#divAAA{
+width: 100%;
+}
+#div_hide1{
+    position: absolute;
+    left: 530px;
+    top: 43px;
+    width: 350px;
+    height: 250px;
+    display: none;
+    background-color:white;
+    z-index: 999;
+}
+#div_hide2{
+    position:absolute;
+    top: 43px;
+    left: 600px;
+    width: 250px;
+    height: 200px;
+    display: none;
+    background-color:white;
+    z-index: 999;
+}
+#div_hide3{
+    position:absolute;
+    left:700px;
+    top: 43px;
+    width: 200px;
+    height: 150px;
+    display: none;
+    background-color: white;
+    z-index: 999;
+}
+#div_hide4{
+    position: absolute;
+    left:250px;
+    top: 50px;
+    width: 1300px;
+    height: 350px;
+    display: none;
+    background-color: white;
+    z-index: 999;
+}
+#divin{
+    text-align: left;
+    border-bottom:2px rgb(190, 188, 188) solid;
+    height: 30px;
+    margin-top: 10px;
+}
+
+
+#p_A{
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+#ul_A{
+    float: left;
+    padding:0 10px;
+    margin: 0 30px;
+    text-align: left;
+}
+#li_A{
+    list-style: none;
+    text-decoration: none;
+   margin: 20px 0;
+   font-size: 0.8rem;
+}
+.a_A{
+list-style: none;
+text-decoration: none;
+margin: 0px;
+color:black;
+}
+.a_A:hover{
+    text-decoration: underline;
+}
+
+#ul_C{
+    float: left;
+    padding:0 10px;
+    margin: 5px 0;
+    text-align: left;
+}
+#li_C{
+    list-style: none;
+    text-decoration: none;
+   margin: 25px 0;
+}
+.a_C{
+list-style: none;
+text-decoration: none;
+margin: 5px;
+color: black;
+font-size: 14px;
+}
+.a_C:hover{
+    text-decoration: underline;
+}
+#li_in{
+    display: inline;
+    list-style-type: none;
+    margin: 10px;
+    text-align: left;
+    margin:20px;
+
+}
+.a_in{
+    text-decoration: none;
+    color: black;
+    font-size: 0.9rem;
+}
+.a_in:hover{
+ text-decoration: underline;
+}
+#ul_D{
+    float: left;
+    padding:0 10px;
+    margin: 0 30px;
+    text-align: left;
+}
+#p_D{
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+#li_D{
+    list-style: none;
+    text-decoration: none;
+   margin: 20px 0;
+   font-size: 0.8rem;
+}
+.a_D{
+    list-style: none;
+text-decoration: none;
+margin: 0px;
+color:black;
+}
+.a_D:hover{
+    text-decoration: underline;
+}
+#divin2{
+    text-align: center;
+    height: 40px;
+    background-color: rgb(236, 226, 226);
+    position: relative;
+    top: 280px;
+    margin: 0;
+}
+#li_D1{
+    list-style: none;
+    text-decoration: none;
+  position: relative;
+  left:-530px;
+  top:10px;
+}
+.a_D1{
+    list-style: none;
+    text-decoration: none;
+    margin: 0px;
+    color:black;
+    font-size: 0.8rem;
+    text-align: center;
+}
+.a_D1:hover{
+    text-decoration: underline;
+}
+/* 搜索框 */
+#b{position: relative;
+    top: -43px;
+    left: 505px;
+    border: none;
+    cursor: pointer;
+}
+#Sousuo{
+    position: relative;
+    top: -34px;
+    left: 500px;
+    cursor: pointer;
+}
+#div0{
+    position: absolute;
+    top: -5px;
+    left: -210px;
+	width: 1000px;
+	background-color: #FFFFFF;	
+	display: none;
+	z-index: 99;
+}
+.input{ 
+    position: absolute;
+    left: 0px;
+	width: 1200px;
+	height: 30px;
+	border: 2px solid;
+	border-color:rgb(69, 69, 161);
+	font-size: 1.0rem;
+}
+#c{
+	position: relative;
+    top: 0px;
+    left: 750px;
+	width: 75px;
+	height: 35px;
+	background-color: white;
+    border: none;
+    cursor: pointer;
+}
+#liSignin{
+    list-style: none;
+    text-decoration: none;
+    
+}
+#aSignin{
+    text-decoration: none;
+    color: black;
+    font-weight:100;
+    position: relative;
+    top: -65px;
+    left: 680px;
+}
+#imgSignin{
+    position: relative;
+    top: -90px;
+    left: 730px;
+    cursor: pointer;
+
+}
+/* body */
+.divhead{
+    position: relative;
+    margin: 0 auto;
+    padding: 10px 90px;
+   
+    height: 30px;
+    text-align: center;
+}
+#imghead{
+    position: relative;
+    height: 23px;
+    width: 115px;
+    float: left;
+    cursor: pointer;
+    z-index: 1;
+    margin: 0 auto;
+}
+.divA{
+    position: relative;
+    left: -480px;
+}
+
+.divA::before {
+    position: relative;
+    top: 5px;
+    display: inline-block;
+    margin-right: 10px;
+    content: " ";
+    width: 2px;
+    height: 20px;
+    background-color:black;
+}
+
+.linav_1{
+    display: inline;
+    list-style-type: none;
+    margin: 10px;
+}
+.anav_1{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+}
+.linav_1 :hover{
+    text-decoration: underline;
+}
+.linav_2{
+    display: inline;
+    list-style-type: none;
+}
+.anav_2{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 300;
+    color: black;
+}
+.linav_2 :hover{
+    text-decoration: underline;
+}
+.divB{
+    position: relative;
+    left: -120px;
+    top: -35px;
+    width: 420px;
+    margin: 0 auto;
+    padding: 0px;
+}
+.li_1{
+    display: inline;
+    list-style-type: none;
+    margin: 12px;
+}
+.li_1:hover{
+    text-decoration: underline;
+}
+#a_1{
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    background: transparent;
+}
+#btn_1{
+       text-decoration: none;
+        font-size: 15px;
+        color: black;
+        border: none;
+        padding: 0px;
+        margin: 0px;
+        background: transparent;
+        cursor: pointer;
+    }
+    #btn_2{
+        text-decoration: none;
+        font-size: 15px;
+        color: black;
+        border: none;
+        padding: 0px;
+        margin: 0px;
+        background: transparent;
+        cursor: pointer;
+    }
+    #btn_3{
+        text-decoration: none;
+        font-size: 15px;
+        color: black;
+        border: none;
+        padding: 0px;
+        margin: 0px;
+        background: transparent;
+        cursor: pointer;
+    }
+
+
+.btn_head{
+    position: relative;
+    left: 350px;
+    top: -43px;
+    background-color: white;
+    height: 30px;
+    width: 130px;
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn_head:hover{
+    text-decoration: underline;
+}
+#btn_4{
+    text-decoration: none;
+        font-size: 15px;
+        color: black;
+        border: none;
+        padding: 0px;
+        margin: 0px;
+        background: transparent;
+        cursor: pointer;
+        position: relative;
+        left: 500px;
+        top: -43px;
+        font-size: 14px;
+
+}
+/* 第一部分 */
+#divbody_1 {
+    width: 100%;
+    height: 1550px;
+    background-color: #5C2D91;
+    padding: 10px 0 ;
+}
+
+
+
+#title_1 {
+    position: relative;
+    top: 10px;
+    font-size: 5rem;
+    font-weight: 700;
+    color: white;
+    line-height: 1;
+    margin-bottom: 30px;
+
+}
+
+#div_h2 {
+    margin: 0 auto;
+    text-align: center;
+    width: 750px;
+}
+
+#title_2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: white;
+}
+
+#img1 {
+    background-color: white;
+    position: relative;
+    top: 20px;
+    height: 50px;
+    width: 50px;
+}
+
+.dropdown{
+    position: relative;
+    top: 2.5px;
+    left: -3px;
+}
+.buttonDownload {
+    height: 51px;
+    width: 200px;
+    position: relative;
+    left: 3px;
+    background-color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+}
+/* 下拉菜单 */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    z-index: 99;
+
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+    border: solid 1px black;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .buttonDownload {
+    background-color: white;
+    color: black;
+    border: solid 1px black;
+}
+/*  */
+#untitled{
+    position: relative;
+    top: 50px;
+}
+#divC{
+    position: relative;
+    top: 100px;
+    left: -280px ;
+    width: 650px;
+    margin: 0 auto;
+   text-align: left;
+  
+
+}
+#title_3{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: white;
+}
+.li_2{
+    list-style: none;
+    margin: 15px;
+    color: white;
+    position: relative;
+    top: 30px;
+}
+.li_2:hover{
+    position: relative;
+    top: 25px;
+    margin: 10px;
+}
+.a_2{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+#divD{
+    position: relative;
+    left: 400px;
+    top: -50px;
+    width: 600px;
+    text-align: left;
+    margin: 0 auto;
+}
+#p_E{
+    color: white;
+    font-size: 1.5rem;
+
+}
+
+/* 第二部分 */
+#divbody_2 {
+    width: 100%;
+    height: 900px;
+    background-color: #333;
+}
+/* 选项卡 */
+.header{
+    width: 100px;
+    height: 600px;
+    position: relative;
+    top: 150px;
+    left: -600px;
+    margin: 0 auto;
+}
+.li_E{
+    width: 150px;
+    height: 60px;
+    border-bottom: 1px solid white;
+    line-height: 60px;
+    list-style: none;
+    color: white;
+    font-size: 1.25rem;
+    text-align: left;
+    padding-left: 20px;
+}
+.header li{
+    width: 150px;
+    height: 60px;
+    border-bottom: 1px solid white;
+    line-height: 60px;
+    list-style: none;
+    color: white;
+    font-size: 1.25rem;
+    text-align: left;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.cont h3{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.cont p{
+    font-size: 1.25rem;
+    color: white;
+    font-weight: 500;
+}
+.cont li{
+list-style: none;
+color: white;
+font-size: 1.15rem;
+padding-bottom: 20px;
+}
+.cont div{
+    display: none;
+    width: 800px;
+    margin: 0 auto;
+    text-align: left;
+    position: relative;
+    left: 0px;
+    top: -550px;
+}
+#show1{
+    display: block;
+}
+#gif{
+    width: 800px;
+}
+/*  */
+/* 第三部分 */
+#divbody_3{
+    margin: 0 auto;
+    width: 1400px;
+   /* height: auto; */
+   padding: 100px;
+
+}
+#div3{
+    text-align: left;
+    position: relative;
+    left: 100px;
+    top: 100px;
+}
+#h1{
+font-size: 2.75rem;
+line-height: 1.18;
+margin: 0 10px;
+position: relative;
+left: -10px;
+}
+#h2{
+    font-size: 1.5rem;
+    line-height: 1.7;
+     padding: 0 10px;
+     position: relative;
+     left: -10px;
+}
+#li3{
+    list-style-type: none;
+}
+#a3{
+    text-decoration: none;
+    position: relative;
+    font-size: 1.12rem;
+    color:#0067b7;
+    font-weight: 300;
+}
+#h3{
+    font-size: 1.8rem;
+    font-weight: 600;
+   
+}
+.div4{
+    text-align: left;
+    position: relative;
+    top: 100px;
+    left: 120px;
+
+    width: 1100px;
+    border-bottom: 1px solid rgb(211, 209, 209);
+}
+/* 隐藏部分 */
+.div111{
+    width: 1000px;
+    height: 600px;
+    text-align: left;
+    margin: 0 auto;
+    display: none;
+    
+}
+#a111{
+    text-decoration: none;
+    font-size: 1.25rem;
+    color: rgb(0, 110, 255);
+}
+/*  */
+*{
+    list-style: none;
+    
+}
+dl{
+    display: none;
+ 
+}
+/* #liOne{
+    padding: 0px;
+margin: 0px;
+} */
+
+
+.button2{
+    background-color: white;
+    border-radius: 1.5px;
+    width:150px;
+    height: 100px;
+    text-align: left;
+    position: relative;
+    top: -80px;
+    left: 200px;
+    border: 1px solid rgb(223, 220, 220);
+    cursor: pointer;
+   
+}
+.button3{
+    background-color: white;
+    border-radius: 1.5px;
+    width:150px;
+    height: 100px;
+    text-align: left;
+    position: relative;
+    top: -80px;
+    left: 250px;
+    border: 1px solid rgb(223, 220, 220);
+    cursor: pointer;
+   
+}
+.button4{
+    background-color: white;
+    border-radius: 1.5px;
+    width:150px;
+    height: 100px;
+    text-align: left;
+    position: relative;
+    top: -80px;
+    left: 300px;
+    border: 1px solid rgb(223, 220, 220);
+    cursor: pointer;
+}
+.button5{
+    background-color: white;
+    border-radius: 1.5px;
+    width:150px;
+    height: 100px;
+    text-align: left;
+    position: relative;
+    top: -80px;
+    left: 350px;
+    border: 1px solid rgb(223, 220, 220);
+    cursor: pointer;
+   
+}
+.button6{
+    background-color: white;
+    border-radius: 1.5px;
+    width:150px;
+    height: 100px;
+    text-align: left;
+    position: relative;
+    top: -80px;
+    left: 400px;
+    border: 1px solid rgb(223, 220, 220);
+    cursor: pointer;
+   
+}
+.button7{
+    background-color: white;
+    border-radius: 1.5px;
+    width:150px;
+    height: 100px;
+    text-align: left;
+    position: relative;
+    top:50px;
+    left: -570px;
+    
+    border: 1px solid rgb(223, 220, 220);
+    cursor: pointer;
+   
+}
+
+#img2{
+    width:30px;
+}
+.button2 p{
+    font-size: 0.8rem;
+}
+#div5{
+    text-align: left;
+    position: relative;
+    top: 100px;
+    left: 120px;
+    width: 1100px;
+    border-bottom: 1px solid rgb(211, 209, 209);
+}
+#div6{
+    text-align: left;
+    position: relative;
+    top: 100px;
+    left: 120px;
+  
+    width: 1100px;
+    border-bottom: 1px solid rgb(211, 209, 209);
+}
+#div7{
+    text-align: left;
+    position: relative;
+    top: 100px;
+    left: 120px;
+    width: 1100px;
+    border-bottom: 1px solid rgb(211, 209, 209);
+    padding:100px 0;
+}
+#div_body4{
+    height: 500px;
+    margin: 50px;
+    margin: 0 auto;
+    width:1200px;
+  
+}
+#h4{
+    font-size: 2.5rem;
+    color: rgb(22, 22, 22);
+}
+#div4-1{
+    text-align: left;
+    width: 215px;
+    position: relative;
+    top: 50px;
+
+}
+.a4-1{
+    font-size: 1.8rem;
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+    position: relative;
+    left:-45px;
+}
+.a4-1:hover{
+    text-decoration: underline;
+}
+#p4-1{
+    font-size: 1.4rem;
+   line-height: 30px;
+   font-weight: 200;
+}
+#img4-1{
+    position: relative;
+    left: -50px;
+    top: 12px;
+}
+#div4-2{
+    text-align: left;
+    width: 215px;
+    position: relative;
+    top: -225px;
+    left: 320px;
+}
+#div4-3{
+    text-align: left;
+    width: 215px;
+    position: relative;
+    top: -470px;
+    left: 680px;
+}
+#div4-4{
+    text-align: left;
+    width: 215px;
+    position: relative;
+    top: -800px;
+    left: 1000px;
+    
+}
+/* 第五部分 */
+#div_body5{
+    height: 400px;
+    width: 100%;
+}
+#p5{
+    font-size: 1.25rem;
+}
+#a5_1{
+    font-size: 1.1rem;
+    color: rgb(52, 118, 241);
+    text-decoration: none;
+    line-height: 40px;
+}
+#banner2{
+    height: 300px;
+    width: 1250px;
+    margin: 0 auto;
+    background-color: white;
+    overflow: hidden;
+}
+#banner2 div{
+    float: left;
+    width: 200px;
+    margin: 0 15px;
+    height: 300px;
+    background-color: white;
+    
+    
+}
+.a111:hover{
+    border: solid 1px black;
+}
+#img_a{
+    width: 150px;
+    top: 200px;
+}
+#prev2{
+    width: 50px;
+    height: 50px;
+    border:none;
+    position: relative;
+    top: -250px;
+    left: -600px;
+    background-color: transparent;
+
+}
+#next2{
+    width: 50px; 
+    height: 50px;
+    border:none;
+    position: relative;
+    left: 530px;
+    top: -250px;
+}
+
+
+
+
+/* 第六部分 */
+#div_body6{
+    height: 800px;
+    width: 100%;
+}
+#banner{
+    height: 300px;
+    width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    overflow: hidden;
+}
+#banner div{
+    float: left;
+    width: 250px;
+    margin: 0 15px;
+    height: 300px;
+    text-align: center;
+    background-color: white;
+}
+#video{
+    height: 150px;
+    width: 220px;
+}
+#vp-1{
+    font-size: 1.25rem;
+    color: black;
+    position: relative;
+    top:-300px;
+    font-weight: 600;
+    line-height: 20px;
+}
+#banner1{
+    height: 300px;
+    width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    overflow: hidden;
+}
+#banner1 div{
+    float: left;
+    width: 250px;
+    margin: 0 15px;
+    height: 300px;
+    background-color: white;
+}
+#prev{
+    width: 50px;
+    height: 50px;
+    border:none;
+    position: relative;
+    top: -250px;
+    left: -600px;
+
+}
+#next{
+    width: 50px;
+    height: 50px;
+    border:none;
+    position: relative;
+    left: 530px;
+    top: -250px;
+}
+#prev1{
+    width: 50px;
+    height: 50px;
+    border:none;
+    position: relative;
+    top: -250px;
+    left: -600px;
+}
+#next1{
+    width: 50px;
+    height: 50px;
+    border:none;
+    position: relative;
+    left: 530px;
+    top: -250px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bottom1{
+    background-color: #32145a;
+    width: 100%;
+    height: 150px;
+    margin: 0 auto;
+   
+}
+#img_btom_1{
+    cursor: pointer;
+}
+#btom_1{
+    width: 300px;
+    margin: 0 auto;
+    position: relative;
+    left: -450px;
+    top: 40px;
+}
+.li_btom_1{
+    width: 120px;
+    position: relative;
+    left: 190px;
+    top: -45px;
+    list-style: none;
+    color: white;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+.li_btom_1:hover{
+    text-decoration: underline;
+}
+#btom_2{
+    width: 300px;
+    margin: 0 auto;
+    position: relative;
+    left: -80px;
+    top: -45px;
+}
+.li_btom_2{
+    width: 120px;
+    position: relative;
+    left: 150px;
+    top: -45px;
+    list-style: none;
+    color: white;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+.li_btom_2:hover{
+    text-decoration: underline;
+}
+#btom_3{
+    width: 300px;
+    margin: 0 auto;
+    position: relative;
+    left: 240px;
+    top: -135px;
+}
+.li_btom_3{
+    width: 120px;
+    position: relative;
+    left: 150px;
+    top: -45px;
+    list-style: none;
+    color: white;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+.li_btom_3:hover{
+    text-decoration: underline;
+}
+.abtom{
+    text-decoration: none;
+    color: white;
+}
+#bottom2{
+    width: 100%;
+    height: 50px;
+    background-color: #5c2d91;
+}
+#img_btom_4{
+    position: relative;
+    left: 600px;
+    top: 10px;
+    padding:  0 10px;
+    cursor: pointer;
+}
+/* #btom_1{
+    display: inline;
+
+  
+  
+}
+#li_btom_1{
+    list-style: none;
+    color: white;
+    width: 50px;
+    position: relative;
+    left: 90px;
+    top: -50px;
+    font-size: 1.25rem;
+
+}
+
+#btom_2{
+    display: inline;
+    position: relative;
+    left: -40px;
+    top: -35px;
+
+}
+#li_btom_2{
+    list-style: none;
+    color: white;
+width: 50px;
+    position: relative;
+    left: 90px;
+    top: -50px;
+    font-size: 1.25rem;
+
+}
+#btom_3{
+    display: inline;
+    position: relative;
+    left: 300px;
+    top: -125px;
+  
+} */
+#bottom{
+    width: 1500px;
+    margin: 0 auto;
+    text-align: left;
+}
+#ulBottom{
+    float: left;
+    margin: 40px;
+}
+#pBottom{
+    color: rgb(80, 78, 78);
+    font-weight: 600;
+}
+.liBottom{
+    list-style: none;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 0.8rem;
+    color: rgb(80, 78, 78);
+    line-height: 30px;
+}
+.liBottom:hover{
+    text-decoration: underline;
+}
+#divBtom1{
+position: relative;
+top: 300px;
+left: -400px;
+height: 50px;
+
+}
+.liBottom1{
+    float: left;
+    
+    list-style: none;
+    margin: 12px;
+}
